@@ -8,7 +8,7 @@ import Incomplete from './components/Incomplete/Incomplete';
 class App extends Component {
     render() {
         return (
-            <BrowserRouter>
+            <BrowserRouter basename="/portfolio">
                 <Switch>
                     <Route exact path="/" component={ Home } />
                     <Route exact path="/incomplete_page" component={ Incomplete } />
